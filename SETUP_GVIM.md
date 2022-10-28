@@ -1,9 +1,9 @@
-This explains how to set up Vim on Ubuntu 18.04 on Windows Subsystem for Linux 2 (WSL2) to activate GUI interface.
+This explains how to set up Vim(specfically Gvim) on Ubuntu on Windows Subsystem for Linux 2 (WSL2) to activate GUI interface.
 
 
 ## Environments
-* Windows 10 Home
-* Ubuntu 18.04 on Windows Subsystem for Linux 2 (WSL2)
+* Windows 10
+* Ubuntu on Windows Subsystem for Linux 2 (WSL2)
 
 ## Steps
 
@@ -46,7 +46,7 @@ Another alternative if you use you notebook with a WiFi connection and multiple 
 export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
 ```
 
-After you may also set the DISPLAY variable in your ~/.profile file, by using
+## 4. After you may also set the DISPLAY variable in your ~/.profile file, by adding
 
 ```bash
 # set DISPLAY to use X terminal in WSL
